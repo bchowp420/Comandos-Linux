@@ -8,3 +8,7 @@ Este es un repositorio de comandos de Linux del curso de SO
 |pstree | muestra el arbol de procesos de linux | ![image](https://user-images.githubusercontent.com/98858890/154728220-6f0269c5-080a-4e93-a5ce-36d660279607.png)|
 |Sudo apt install ssh-server | Se utiliza para hacer conexiones SSH |  |
 | whoami | Muestra el nombre de usuario | |
+| df -hT | Muestra el sistema de archivos que se utiliza |  |
+| touch | Crea un archivo en blanco | |
+| chmod  | para concender permisos | |
+| | | 
