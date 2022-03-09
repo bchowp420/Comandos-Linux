@@ -11,4 +11,4 @@ Este es un repositorio de comandos de Linux del curso de SO
 | df -hT | Muestra el sistema de archivos que se utiliza |  |
 | touch | Crea un archivo en blanco | |
 | chmod  | para concender permisos | |
-| | | 
+| chown| para dar posesion de un archivo | chown mint test
