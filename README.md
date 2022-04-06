@@ -12,3 +12,8 @@ Este es un repositorio de comandos de Linux del curso de SO
 | touch | Crea un archivo en blanco | |
 | chmod  | para concender permisos | |
 | chown| para dar posesion de un archivo | chown mint test
+| mv | mover archivos a otra ubicacion | mv archivo.txt Desktop |
+| mkdir | Crear directorio | mkdir Weerk11 |
+| rm | Eliminar | rm archivo.txt
+| rm-Rf : | Eliminar todos los directorios apartir del directorio ingresado | rm-Rf :Desktop  |
+
