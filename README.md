@@ -25,5 +25,6 @@ Este es un repositorio de comandos de Linux del curso de SO
 |grep -r | para buscar caracteres de forma recursiva | grep -r log $HOME |
 | ln + archivo original + ruta del enlace| comando utilizado para hacer enlaces entre ficheros | ln archivo1.txt $HOME
 | ln -s ruta del archivo original + ruta del archivo de origien | para crear enlaces suaves | ln -s /var/log /home/myuser/archivo.log|
-| crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e
+| crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e |
+|crontab -l | Se enlista las tareas que debe de realizar cron | crontab -l |
 | m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script
