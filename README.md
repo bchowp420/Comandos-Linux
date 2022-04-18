@@ -16,4 +16,14 @@ Este es un repositorio de comandos de Linux del curso de SO
 | mkdir | Crear directorio | mkdir Weerk11 |
 | rm | Eliminar | rm archivo.txt
 | rm-Rf : | Eliminar todos los directorios apartir del directorio ingresado | rm-Rf :Desktop  |
-
+|stat | Brinda la fecha de creacion o ultimo acceso | stat archivo1.txt |
+| du -h | brinda el tamaño del archivo | du -h archivo.txt |
+|ls -l | lista los permisos de cada directorio y archivo | ls -l |
+| ls -li | para ver el numero de inodo para poder hacer uso de los hard links | ls -li |
+|sudo su| para ingresar como root | sudo su|
+|kill -9 PID  | Para matar un proceso en este caso PID | kill -9 PID |
+|grep -r | para buscar caracteres de forma recursiva | grep -r log $HOME |
+| ln + archivo original + ruta del enlace| comando utilizado para hacer enlaces entre ficheros | ln archivo1.txt $HOME
+| ln -s ruta del archivo original + ruta del archivo de origien | para crear enlaces suaves | ln -s /var/log /home/myuser/archivo.log|
+| crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e
+| m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script
