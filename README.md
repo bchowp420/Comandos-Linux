@@ -8,11 +8,10 @@ Este es un repositorio de comandos de Linux del curso de SO
 |pstree | muestra el arbol de procesos de linux | ![image](https://user-images.githubusercontent.com/98858890/154728220-6f0269c5-080a-4e93-a5ce-36d660279607.png)|
 |Sudo apt install ssh-server | Se utiliza para hacer conexiones SSH | Sudo apt install ssh--server |
 | whoami | Muestra el nombre de usuario | whoami |
-| df -hT | Muestra el sistema de archivos que se utiliza | ![whoami](https://user-images.githubusercontent.com/98858890/164571811-dee91ae1-7f8f-4870-8f5a-2d4fa972d3bd.PNG)
- |
-| touch | Crea un archivo en blanco | |
-| chmod  | para concender permisos | |
-| chown| para dar posesion de un archivo | chown mint test
+| df -hT | Muestra el sistema de archivos que se utiliza | ![whoami](https://user-images.githubusercontent.com/98858890/164571811-dee91ae1-7f8f-4870-8f5a-2d4fa972d3bd.PNG) |
+| touch | Crea un archivo en blanco | touch prueba.txt |
+| chmod  | para concender permisos | chmod +x prueba.txt |
+| chown| para dar posesion de un archivo | chown mint test |
 | mv | mover archivos a otra ubicacion | mv archivo.txt Desktop |
 | mkdir | Crear directorio | mkdir Weerk11 |
 | rm | Eliminar | rm archivo.txt
