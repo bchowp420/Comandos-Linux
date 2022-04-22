@@ -28,6 +28,7 @@ Este es un repositorio de comandos de Linux del curso de SO
 | crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e |
 |crontab -l | Se enlista las tareas que debe de realizar cron | crontab -l |
 | m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script|
+|sudo systemctl start openvpn-server@server.service | Run the openvpn |
 | sudo cp [certicateName] /etc/openvpn/client.conf | Copiar el certificado en la carpeta cliente.conf| sudo cp ClienteServer.ovpn /etc/openvpn/client.conf |
 |  sudo openvpn --client --config /etc/openvpn/client.conf | Utilizado para conectarse al servidor VPN |  sudo openvpn --client --config /etc/openvpn/client.conf
 |Docker Commands|
