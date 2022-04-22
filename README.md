@@ -38,21 +38,21 @@ Este es un repositorio de comandos de Linux del curso de SO
 |Sudo ipconfig -s | para ver las diferentes interfaces que posee el equipo
 |Sudo ipconfig docker0 | interfaz docker 0 que muestra informacion direccion ip,etc.
 |Sudo ipconfig interfaz name| muestra la informacion de la interfaz especificada | 
-Docker network create --driver bridge name = para crear nueva interfaz en modo bridge
-Docker pull [imagen]:version = para descargar una imagen de docker
-Docker run [image]  = Ejecutar una imagen de docker
-Docker run –ti [image name]  = Ejecutar una imagen de docker con una terminal interactivca
-docker run –ti - -rm [image] [parametros como uname - bash - ls ] = para que el contenedor se borre automaticamente y no gaste espacio en disco despues de su uso
-Docker ps = para ver cuales contenedores tenemos activos y corriendo
-Docker ps -a se observan todos los contenedores incluso los que estan en estado exited.
-Docker run -d [image] = para crear un contenedor y que este corriendo en segundo plano con un daemon.
-run –d –name nombre_del_contenedor = para setear el nombre del contenedor
-docker rm [id or name] = Se utiliza para borrar un contenedor 
-docker stop [ID] = utilizado para detener un contenedor antes de borrarlo
-docker rmi [imageName:version]  = utilizado para borrar imágenes de docker
-vim dockerfile utilizado para crear y editar el dockerfile
-docker build –t [RepositoryName][TagName] = Para compilar el dockerfile creado. El nombre del repositorio y el tag son personalizados
-Docker history = ver la cantidad de capas de un dockerfile
-Rm -rf /var/lib/apt/lists/ para borrar la cache de los paquetes 
+|Docker network create --driver bridge name | Para crear nueva interfaz en modo bridge
+Docker pull [imagen]:version | para descargar una imagen de docker
+Docker run [image]  | Ejecutar una imagen de docker
+Docker run –ti [image name]  | Ejecutar una imagen de docker con una terminal interactivca
+docker run –ti - -rm [image] [parametros como uname - bash - ls ] | para que el contenedor se borre automaticamente y no gaste espacio en disco despues de su uso
+Docker ps | para ver cuales contenedores tenemos activos y corriendo
+Docker ps -a | se observan todos los contenedores incluso los que estan en estado exited.
+Docker run -d [image] | para crear un contenedor y que este corriendo en segundo plano con un daemon.
+run –d –name nombre_del_contenedor | para setear el nombre del contenedor
+docker rm [id or name] | Se utiliza para borrar un contenedor 
+docker stop [ID] | utilizado para detener un contenedor antes de borrarlo
+docker rmi [imageName:version] | utilizado para borrar imágenes de docker
+vim dockerfile | utilizado para crear y editar el dockerfile
+docker build –t [RepositoryName][TagName] | Para compilar el dockerfile creado. El nombre del repositorio y el tag son personalizados
+Docker history | ver la cantidad de capas de un dockerfile
+Rm -rf /var/lib/apt/lists/ | para borrar la cache de los paquetes 
 
 
