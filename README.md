@@ -28,16 +28,16 @@ Este es un repositorio de comandos de Linux del curso de SO
 | crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e |
 |crontab -l | Se enlista las tareas que debe de realizar cron | crontab -l |
 | m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script|
-|Docker Commands|
-|Docker ps -a | para ver el estado y ID del contenedor asi como cuando se creo, etc.| |
+|Docker Commands
+|Docker ps -a | para ver el estado y ID del contenedor asi como cuando se creo, etc.| 
 |Docker history imagen | para observar las capas del docker
-|Docker info| Para saber el driver de almacenamiento que se esta utilizando| |
-|Docker images | observar nuestras imágenes y tags y el Image ID| |
-Docker pull imageName = para instalar imágenes de docker
-Docker network ls = lista nuestras interfaces de red en docker
-Sudo ipconfig -s = para ver las diferentes interfaces que posee el equipo
-Sudo ipconfig docker0 = interfaz docker 0 que muestra informacion direccion ip,etc.
-Sudo ipconfig interfaz name
+|Docker info| Para saber el driver de almacenamiento que se esta utilizando| 
+|Docker images | observar nuestras imágenes y tags y el Image ID| 
+|Docker pull imageName | para instalar imágenes de docker
+|Docker network ls | lista nuestras interfaces de red en docker
+|Sudo ipconfig -s | para ver las diferentes interfaces que posee el equipo
+|Sudo ipconfig docker0 | interfaz docker 0 que muestra informacion direccion ip,etc.
+|Sudo ipconfig interfaz name| muestra la informacion de la interfaz especificada | 
 Docker network create --driver bridge name = para crear nueva interfaz en modo bridge
 Docker pull [imagen]:version = para descargar una imagen de docker
 Docker run [image]  = Ejecutar una imagen de docker
