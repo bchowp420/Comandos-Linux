@@ -7,8 +7,8 @@ Este es un repositorio de comandos de Linux del curso de SO
 | htop     | Permite al usuario monitorear los recursos vitales en tiempo real. Es un comando mas reciente que top | ![image](https://user-images.githubusercontent.com/98858890/154727409-f5fc2258-2a13-4b00-96f3-eaac41eb954e.png)|
 |pstree | muestra el arbol de procesos de linux | ![image](https://user-images.githubusercontent.com/98858890/154728220-6f0269c5-080a-4e93-a5ce-36d660279607.png)|
 |Sudo apt install ssh-server | Se utiliza para hacer conexiones SSH | Sudo apt install ssh--server |
-| whoami | Muestra el nombre de usuario | whoami |
-| df -hT | Muestra el sistema de archivos que se utiliza | ![whoami](https://user-images.githubusercontent.com/98858890/164571811-dee91ae1-7f8f-4870-8f5a-2d4fa972d3bd.PNG) |
+| whoami | Muestra el nombre de usuario | ![whoami](https://user-images.githubusercontent.com/98858890/164571811-dee91ae1-7f8f-4870-8f5a-2d4fa972d3bd.PNG) |
+| df -hT | Muestra el sistema de archivos que se utiliza |![df -hT](https://user-images.githubusercontent.com/98858890/164572433-2f41f439-7d0e-4e49-a09a-eb5cb864788e.png) |
 | touch | Crea un archivo en blanco | touch prueba.txt |
 | chmod  | para concender permisos | chmod +x prueba.txt |
 | chown| para dar posesion de un archivo | chown mint test |
@@ -27,4 +27,32 @@ Este es un repositorio de comandos de Linux del curso de SO
 | ln -s ruta del archivo original + ruta del archivo de origien | para crear enlaces suaves | ln -s /var/log /home/myuser/archivo.log|
 | crontab -e  | se utiliza para entrar al archivo crontab y poder setear la hora de ejecucion de nuestro script por medio de cron| cron -e |
 |crontab -l | Se enlista las tareas que debe de realizar cron | crontab -l |
-| m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script
+| m h dom mon dow user command | 15 10 *** bchowp420 /home/usuario/scripts/actualizar | m = minuto - dom = dia del mes - dow = el dia de la semana del 0 a 7 - command= es la ruta del script|
+|Docker Commands|
+|Docker ps -a | para ver el estado y ID del contenedor asi como cuando se creo, etc.| |
+|Docker history imagen | para observar las capas del docker
+|Docker info| Para saber el driver de almacenamiento que se esta utilizando| |
+|Docker images | observar nuestras imágenes y tags y el Image ID| |
+Docker pull imageName = para instalar imágenes de docker
+Docker network ls = lista nuestras interfaces de red en docker
+Sudo ipconfig -s = para ver las diferentes interfaces que posee el equipo
+Sudo ipconfig docker0 = interfaz docker 0 que muestra informacion direccion ip,etc.
+Sudo ipconfig interfaz name
+Docker network create --driver bridge name = para crear nueva interfaz en modo bridge
+Docker pull [imagen]:version = para descargar una imagen de docker
+Docker run [image]  = Ejecutar una imagen de docker
+Docker run –ti [image name]  = Ejecutar una imagen de docker con una terminal interactivca
+docker run –ti - -rm [image] [parametros como uname - bash - ls ] = para que el contenedor se borre automaticamente y no gaste espacio en disco despues de su uso
+Docker ps = para ver cuales contenedores tenemos activos y corriendo
+Docker ps -a se observan todos los contenedores incluso los que estan en estado exited.
+Docker run -d [image] = para crear un contenedor y que este corriendo en segundo plano con un daemon.
+run –d –name nombre_del_contenedor = para setear el nombre del contenedor
+docker rm [id or name] = Se utiliza para borrar un contenedor 
+docker stop [ID] = utilizado para detener un contenedor antes de borrarlo
+docker rmi [imageName:version]  = utilizado para borrar imágenes de docker
+vim dockerfile utilizado para crear y editar el dockerfile
+docker build –t [RepositoryName][TagName] = Para compilar el dockerfile creado. El nombre del repositorio y el tag son personalizados
+Docker history = ver la cantidad de capas de un dockerfile
+Rm -rf /var/lib/apt/lists/ para borrar la cache de los paquetes 
+
+
