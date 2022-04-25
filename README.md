@@ -32,6 +32,9 @@ Este es un repositorio de comandos de Linux del curso de SO
 | sudo cp [certicateName] /etc/openvpn/client.conf | Copiar el certificado en la carpeta cliente.conf| sudo cp ClienteServer.ovpn /etc/openvpn/client.conf |
 |  sudo openvpn --client --config /etc/openvpn/client.conf | Utilizado para conectarse al servidor VPN |  sudo openvpn --client --config /etc/openvpn/client.conf
 | curlftpfs 10.8.0.3 /media/ftpAndromeda/ -o user=bchowp420,allow_other | para montar la unidad de red | 
+
+| For NEXTCLOUD |
+| sudo mysql-uroot -p | Para ingresar al command prompt de MariaDB |
 |Docker Commands|
 |---------------|
 |Docker ps -a | para ver el estado y ID del contenedor asi como cuando se creo, etc.| 
